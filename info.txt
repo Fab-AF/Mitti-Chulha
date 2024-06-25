@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=ZDQn-9cdx9Q old video link
+
+use App\Models\Member;
+
+        if (session()->has('lang')) {
+            $currentLang = Language::where('code', session()->get('lang'))->first();
+        } else {
+            $currentLang = Language::where('is_default', 1)->first();
+        }
+        $lang_id = $currentLang->id;
+        $data['members'] = Member::where('language_id', $lang_id)->where('feature', 1)->get(); 
