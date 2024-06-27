@@ -447,7 +447,24 @@ class FrontendController extends Controller
         $activeTheme = $bs->theme;
         return view('front.multipurpose.teams', $data);
     }
+    public function catering(){
+        if (session()->has('lang')) {
+            $currentLang = Language::where('code', session()->get('lang'))->first();
+        } else {
+            $currentLang = Language::where('is_default', 1)->first();
+        }
 
+        // $data['contact'] = BS::where('language_id', $currentLang->id)->select(
+        //     'contact_form_title',
+        //     'contact_info_title',
+        //     'contact_address',
+        //     'contact_number',
+        //     'contact_text'
+        // )->first();
+        // echo"<pre>";
+        // print_r($data['contact']);exit;
+        return view('front.multipurpose.catering');
+    }
     public function dynamicPage($slug, $id)
     {
         if (session()->has('lang')) {

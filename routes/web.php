@@ -25,6 +25,7 @@ Route::middleware(['setlang'])->group(function () {
     Route::get('/blog-details/{slug}/{id}', 'Front\FrontendController@blogdetails')->name('front.blogdetails');
 
     Route::get('/contact', 'Front\FrontendController@contact')->name('front.contact');
+    Route::get('/catering', 'Front\FrontendController@catering')->name('front.catering');
     Route::post('/sendmail', 'Front\FrontendController@sendmail')->name('front.sendmail');
     Route::post('/subscribe', 'Front\FrontendController@subscribe')->name('front.subscribe');
     Route::get('/gallery', 'Front\FrontendController@gallery')->name('front.gallery');

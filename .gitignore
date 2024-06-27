@@ -5,6 +5,7 @@
 /vendor
 /database/superv.sql
 /public/installer/database.sql
+Mitti Chulha.txt
 .env.backup
 finalenv.txt
 .env
