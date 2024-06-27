@@ -232,7 +232,7 @@
                                                                         </p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="menu-price-btn">
+                                                                <!-- <div class="menu-price-btn">
                                                                     <a class="cart-link d-md-none d-block btn mobile"
                                                                     data-product="{{ $product }}"
                                                                     data-href="{{ route('add.cart', $product->id) }}">+</a>
@@ -246,7 +246,7 @@
                                                                         <del>
                                                                             {{ $be->base_currency_symbol_position == 'left' ? $be->base_currency_symbol : '' }}{{ convertUtf8($product->previous_price) }}{{ $be->base_currency_symbol_position == 'right' ? $be->base_currency_symbol : '' }}</del>
                                                                     @endif
-                                                                </div>
+                                                                </div> -->
                                                                 @if ($product->is_special == 1)
                                                                     <div class="flag flag-2">
                                                                         <span>{{ __('Special') }}</span>
@@ -446,10 +446,10 @@
                                     <img class="lazy wow fadeIn"
                                         data-src="{{ asset('assets/front/img/product/featured/' . $sproduct->feature_image) }}"
                                         alt="">
-                                    <div class="special-btns">
+                                    <!-- <div class="special-btns">
                                         <a class="cart-link" data-product="{{ $sproduct }}"
                                             data-href="{{ route('add.cart', $sproduct->id) }}">{{ __('Add to Cart') }}</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             @endforeach
                         </div>
@@ -608,7 +608,7 @@
     <!--====== CLIENT PART ENDS ======-->
 
     <!--====== BLOG PART START ======-->
-    @if ($bs->news_section == 1)
+    <!-- @if ($bs->news_section == 1)
         <section class="blog-area pb-130">
             <div class="container">
                 <div class="row justify-content-center">
@@ -657,7 +657,7 @@
             </div>
 
         </section>
-    @endif
+    @endif -->
     <!--====== BLOG PART ENDS ======-->
 
 

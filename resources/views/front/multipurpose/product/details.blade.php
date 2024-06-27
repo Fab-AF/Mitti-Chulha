@@ -111,9 +111,9 @@
                             </ul>
                         </div>
 
-                        <div class="shop-btns pt-45">
+                        <!-- <div class="shop-btns pt-45">
                             <a data-href="{{route('add.cart',$product->id)}}" data-product="{{$product}}" class="main-btn-2 main-btn cart-link ">{{__('Add To Cart')}}  <i class="fa fa-shopping-basket"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

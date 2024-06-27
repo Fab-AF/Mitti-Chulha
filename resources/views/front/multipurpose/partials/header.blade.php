@@ -39,7 +39,7 @@
                                         </div>
                                     @endif -->
 
-                                    @guest
+                                    <!-- @guest
                                         <ul class="login">
                                             <li><a href="{{ route('user.login') }}">{{ __('Login') }}</a></li>
                                         </ul>
@@ -65,7 +65,7 @@
                                             
                                             <span class="cart-quantity">{{ $itemsCount }}</span>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>

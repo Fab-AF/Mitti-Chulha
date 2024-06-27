@@ -56,7 +56,7 @@
                                                 <p>{{convertUtf8($product->summary)}} </p>
                                             </div>
                                         </div>
-                                        <div class="menu-price-btn">
+                                        <!-- <div class="menu-price-btn">
                                             <a class="cart-link" data-product="{{$product}}" data-href="{{route('add.cart',$product->id)}}">{{__('Add to Cart')}}</a>
 
                                             <span>{{$be->base_currency_symbol_position == 'left' ? $be->base_currency_symbol : ''}}{{convertUtf8($product->current_price)}}{{$be->base_currency_symbol_position == 'right' ? $be->base_currency_symbol : ''}}
@@ -64,7 +64,7 @@
                                             @if($product->previous_price)
                                             <del>  {{$be->base_currency_symbol_position == 'left' ? $be->base_currency_symbol : ''}}{{convertUtf8($product->previous_price)}}{{$be->base_currency_symbol_position == 'right' ? $be->base_currency_symbol : ''}}</del>
                                             @endif
-                                        </div>
+                                        </div> -->
                                         @if ($product->is_special == 1)
                                             <div class="flag flag-2"><span>{{__('Special')}}</span></div>
                                         @endif

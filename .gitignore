@@ -3,6 +3,8 @@
 /public/storage
 /storage/*.key
 /vendor
+/database/superv.sql
+/public/installer/database.sql
 .env.backup
 finalenv.txt
 .env
@@ -11,5 +13,3 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-/database/superv.sql
-/public/installer/database.sql

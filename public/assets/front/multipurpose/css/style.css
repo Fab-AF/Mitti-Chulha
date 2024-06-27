@@ -1296,6 +1296,7 @@ ul.login {
     right: -28px;
     color: #fff;
     opacity: 0.7;
+    display: none;
 }
 
 .links ul.social-links li:last-child {
