@@ -535,7 +535,7 @@ div#particles-js canvas {
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .navigation .navbar .navbar-nav .nav-item {
-        margin: 0 14px;
+        margin: 0 20px;
     }
 }
 
@@ -614,6 +614,12 @@ div#particles-js canvas {
         margin: 0;
         line-height: 40px;
         text-align: left;
+    }
+    .navigation .navbar {
+        position: relative;
+        padding: 0 0rem;
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -937,6 +943,9 @@ div#navbarFive {
         max-height: 450px;
         overflow-y: scroll;
     }
+    div#navbarFive > ul > .d-sm-none {
+        display: none !important;
+    }
     .navigation .navbar .navbar-nav .nav-item .sub-menu > li a {
         text-align: left;
     }
@@ -995,7 +1004,7 @@ div#navbarFive {
 
 .navigation .navbar .navbar-btns .header-times p {
     color: #fff;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     font-weight: 300;
 }
 
@@ -1619,6 +1628,11 @@ ul.login a {
 
     font-size: 60px;
     padding-bottom: 15px;
+}
+@media (max-width: 900px) {
+    .page-title-area {
+        height: 300px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -2355,7 +2369,7 @@ ul.login a {
     .food-menu-area .food-menu-items {
         position: relative;
         z-index: 5;
-        height: 300px !important;
+        height: 250px !important;
     }
 }
 
@@ -2602,7 +2616,7 @@ ul.login a {
     line-height: 45px;
     padding: 0 30px;
     background-color: transparent;
-    color: #783119;
+    color: #f96e01;
     font-weight: 700;
     font-size: 16px;
     font-family: sans-serif;
@@ -2675,7 +2689,7 @@ ul.login a {
     width: 100%;
     background: #fff;
     z-index: -1;
-    border: 1px solid #783119;
+    border: 1px solid #f96e01;
 }
 
 .food-menu-area.food-menu-2-area .section-title .title {
@@ -3114,6 +3128,7 @@ ul.login a {
 .team-area .single-team .team-thumb {
     position: relative;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .team-area .single-team .team-thumb img {
@@ -4391,7 +4406,7 @@ form .input-box label span {
 }
 
 .subscribe-form {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .subscribe-inputs input {
@@ -7199,10 +7214,12 @@ button.filter-button:hover {
 }
 
 .contact-area .contact-area-info .title-area .title {
-    font-size: 24px;
-    font-weight: 700;
+   
+    font-size: 28px;
+    font-weight: 800;
     text-transform: uppercase;
     text-transform: capitalize;
+    color: #f96e01 !important;
 }
 
 .contact-area .contact-area-info .title-area p {

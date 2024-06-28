@@ -32,7 +32,7 @@
 }
 
 .catering-banner-content .main-title>span:last-child {
-    color: #B85036;
+    color: #f96e01;
 }
 
 .catering-banner-content .catering-banner-para {
@@ -103,7 +103,7 @@
 }
 
 .input-btn input[type="submit"] {
-    background: #d9a45b;
+    background: #f96e01;
     color: #fff;
     border: none;
     padding: 12px 20px;
@@ -174,7 +174,7 @@
     <div class="wrap">
         <div class="catering-banner-content">
             <h1 class="main-title"><span>Welcome to </span> <span>Mitti Chulha</span></h1>
-            <p class="catering-banner-para">We at 1944 The Mitti Chulha ensure that our Catering
+            <p class="catering-banner-para">We <span style="color: #f96e01"> The Mitti Chulha </span> ensure that our Catering
                 services embody the standards of service and quality. We totally understand that every
                 event is unique, and every customer has different expectations and hence we endeavour to
                 make your event a success.</p>
