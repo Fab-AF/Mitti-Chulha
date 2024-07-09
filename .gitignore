@@ -14,3 +14,8 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+*.sql
+*.zip
+*.log
+*.gz
+public/assets/front/img/summernote/
