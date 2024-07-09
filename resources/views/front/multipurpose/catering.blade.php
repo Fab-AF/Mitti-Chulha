@@ -174,7 +174,7 @@
     <div class="wrap">
         <div class="catering-banner-content">
             <h1 class="main-title"><span>Welcome to </span> <span>Mitti Chulha</span></h1>
-            <p class="catering-banner-para">We <span style="color: #f96e01"> The Mitti Chulha </span> ensure that our Catering
+            <p class="catering-banner-para">We <span  class="ourtesticolor"> The Mitti Chulha </span> ensure that our Catering
                 services embody the standards of service and quality. We totally understand that every
                 event is unique, and every customer has different expectations and hence we endeavour to
                 make your event a success.</p>

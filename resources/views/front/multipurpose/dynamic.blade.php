@@ -29,7 +29,7 @@
 .about-section h1 {
     font-size: 30px;
     color: #C75B34;
-    line-height:37px
+    line-height:0px;
     font-family: 'Cursive', sans-serif;
     font-weight:700;
 }
@@ -114,11 +114,9 @@
         <h1>About Mittichulha</h1>
         <h2>We are a modern restaurant in the city</h2>
         <p>
-            What started as a pop-up ice-cream handcart in 1944, has today, transformed into a network of 14 restaurants, 
-            serving the formidable yet warm and welcoming 1944 The Hocco Kitchen gourmet experience. To this day, the 
-            Chona family’s legacy of trying out new recipes and formats has kept customers coming back for more. After all, 
-            it was the gastronomist, Mr Satish Chona’s hunger for innovation that brought authentic North Indian and Punjabi 
-            cuisine to Ahmedabad for the first time.
+        What started as a Mittichulha in 2024, has today, transformed into a network of 14 restaurants, 
+            serving the formidable yet warm and welcoming 2024 The Mitti Chuha Kitchen gourmet experience. To this day, the 
+            Chona family’s legacy of trying out new recipes and formats has kept customers coming back for more.
         </p>
     </section>
 </div>
@@ -181,11 +179,9 @@
         <h1>About Mittichulha</h1>
         <h2>We are a modern restaurant in the city</h2>
         <p>
-            What started as a pop-up ice-cream handcart in 1944, has today, transformed into a network of 14 restaurants, 
-            serving the formidable yet warm and welcoming 1944 The Hocco Kitchen gourmet experience. To this day, the 
-            Chona family’s legacy of trying out new recipes and formats has kept customers coming back for more. After all, 
-            it was the gastronomist, Mr Satish Chona’s hunger for innovation that brought authentic North Indian and Punjabi 
-            cuisine to Ahmedabad for the first time.
+            What started as a Mittichulha in 2024, has today, transformed into a network of 14 restaurants, 
+            serving the formidable yet warm and welcoming 2024 The Mitti Chuha Kitchen gourmet experience. To this day, the 
+            Chona family’s legacy of trying out new recipes and formats has kept customers coming back for more.
         </p>
     </section>
    <img src="../../../../public/assets/front/img/5f59cf90bb4ff.png" alt="burger">
