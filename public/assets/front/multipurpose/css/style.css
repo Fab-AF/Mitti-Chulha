@@ -4364,9 +4364,10 @@ form .input-box label span {
 
 .footer-copyright-area {
     background: #141414;
-    height: 70px;
+    height: 40px;
     display: flex;
     align-items: center;
+    font-size: 14px;
 }
 
 @media (max-width: 767px) {
@@ -4445,11 +4446,11 @@ h3.subscribe-title::before {
     left: 0;
     bottom: -14px;
     height: 2px;
-    width: 10px;
+    width: 100%;
     background: #d3a971;
 }
 
-h3.subscribe-title::after {
+/* h3.subscribe-title::after {
     position: absolute;
     content: "";
     left: 17px;
@@ -4457,7 +4458,7 @@ h3.subscribe-title::after {
     height: 2px;
     width: 25px;
     background: #d3a971;
-}
+} */
 
 .go-top-area .go-top {
     position: fixed;
@@ -7219,7 +7220,6 @@ button.filter-button:hover {
     font-weight: 800;
     text-transform: uppercase;
     text-transform: capitalize;
-    color: #f96e01 !important;
 }
 
 .contact-area .contact-area-info .title-area p {
@@ -7230,10 +7230,16 @@ button.filter-button:hover {
 }
 .contact-info-list {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    gap: 5rem;
-    margin-top: 1rem;
+    gap: 3rem;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0rem;
+}
+.contact-area .contact-info-list .item ul{
+text-align: center;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .contact-area .contact-area-info .title-area p {
@@ -7243,16 +7249,20 @@ button.filter-button:hover {
 
 .contact-area .contact-info-list .item {
     position: relative;
-    padding-left: 65px;
+    /* padding-left: 65px; */
+    display: grid;
+    /* justify-content: center; */
+    /* align-items: center; */
+    justify-items: center;
 }
 
 .contact-area .contact-info-list .item i {
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     top: 50%;
     transform: translateY(-50%);
     font-size: 38px;
-
+    line-height: 40px;
     color: #c75b34;
 }
 .contact-area > div {

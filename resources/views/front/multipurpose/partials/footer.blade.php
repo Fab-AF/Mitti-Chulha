@@ -69,7 +69,7 @@
                             @endphp
 
                             @foreach ($ulinks as $ulink)
-                                <li><a href="{{ $ulink->url }}">+ {{ convertUtf8($ulink->name) }}</a></li>
+                                <li><a href="{{ $ulink->url }}">{{ convertUtf8($ulink->name) }}</a></li>
                             @endforeach
                         </ul>
 

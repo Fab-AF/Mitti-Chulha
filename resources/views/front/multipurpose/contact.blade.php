@@ -109,23 +109,11 @@
                             <p>{{convertUtf8($contact->contact_text)}}</p>
                         </div>
                         <div class="contact-info-list">
-                            @if (!empty($bs->contact_address))
-                                <div class="item mt-30">
-                                    <i class="flaticon-placeholder"></i>
-                                    @php
-                                        $addresses = explode(PHP_EOL, $bs->contact_address);
-                                    @endphp
-                                    <ul>
-                                        @foreach ($addresses as $address)
-                                            <li class="d-block mb-0"> {{convertUtf8($address)}}</li>
-                                        @endforeach
-                                    </ul>
-                                </div>
-                            @endif
+                            
 
                             @if (!empty($bs->contact_mails))
 
-                                <div class="item mt-30">
+                                <div class="item ">
                                     <i class="flaticon-mail"></i>
                                     <ul>
                                         @php
@@ -137,9 +125,21 @@
                                     </ul>
                                 </div>
                             @endif
-
+                            @if (!empty($bs->contact_address))
+                                <div class="item ">
+                                    <i class="flaticon-placeholder"></i>
+                                    @php
+                                        $addresses = explode(PHP_EOL, $bs->contact_address);
+                                    @endphp
+                                    <ul>
+                                        @foreach ($addresses as $address)
+                                            <li class="d-block mb-0"> {{convertUtf8($address)}}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif
                             @if (!empty($bs->contact_number))
-                                <div class="item mt-30">
+                                <div class="item ">
                                     <i class="flaticon-smartphone"></i>
                                     <ul>
                                         @php

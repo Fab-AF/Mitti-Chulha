@@ -544,7 +544,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
-                    <span style="    color:#f96e01 !important;
+                    <span class='ourtesticolor' style="
     width: fit-content;
     display: flex;
     justify-content: center;

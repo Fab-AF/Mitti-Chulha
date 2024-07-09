@@ -60,6 +60,29 @@ ul.language-dropdown li a::before {
 .section-title span {
     color:<?php echo htmlspecialchars($color); ?> !important;
 }
+.ourtesticolor{
+    color:<?php echo htmlspecialchars($color); ?> !important;
+
+}
+.input-btn input[type="submit"]{
+background-color:<?php echo htmlspecialchars($color); ?> !important;
+}
+.contact-area .contact-area-info .title-area .title{
+    color:<?php echo htmlspecialchars($color); ?> !important;
+
+}
+.contact-area .contact-info-list .item i{
+    color:<?php echo htmlspecialchars($color); ?> !important;
+
+}
+.about-section h1{
+    color:<?php echo htmlspecialchars($color); ?> !important;
+
+}
+.catering-banner-content .main-title>span:last-child {
+    color:<?php echo htmlspecialchars($color); ?> !important;
+
+}
 
 .food-menu-area .tabs-btn ul li a.active p {
     color:<?php echo htmlspecialchars($color); ?> !important;
